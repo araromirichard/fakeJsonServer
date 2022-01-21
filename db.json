@@ -140,7 +140,7 @@
             }
         },
         "is_private": true,
-        "form_id": 1,
+        "id": 1,
         "form_name": "Unknown Type: uid"
     }]
 }
