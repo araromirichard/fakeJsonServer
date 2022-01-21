@@ -1,6 +1,5 @@
 {
-    "organization": {
-        "organization_name": "kuda",
+    "organID": {
         "form_title": "Expense Report",
         "form_fields": {
             "data": {
