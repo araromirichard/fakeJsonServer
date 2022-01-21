@@ -1,6 +1,5 @@
 {
     "organID": [{
-        "id": 1,
         "form_title": "Expense Report",
         "form_fields": {
             "data": {
@@ -141,7 +140,7 @@
             }
         },
         "is_private": true,
-        "form_id": "",
+        "form_id": 1,
         "form_name": "Unknown Type: uid"
     }]
 }
