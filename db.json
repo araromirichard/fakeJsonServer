@@ -9,17 +9,17 @@
                 "renderFormTag": false,
                 "formActionURL": "",
                 "formMethod": "POST",
-                "enableServerSideValidation": true,
+                "enableServerSideValidation": false,
                 "serverSideValidationEndpoint": ""
             },
             "sections": {
                 "section-ecf524fd-2017-4966-9e80-19858eb79cb5": {
                     "uniqueId": "section-ecf524fd-2017-4966-9e80-19858eb79cb5",
-                    "headline": "Expense Report",
+                    "headline": "Form Headline",
                     "headlineAdditionalClass": "",
-                    "subHeadline": "",
+                    "subHeadline": "This is a sub heading describing this supplier onboarding form",
                     "subHeadlineAdditionalClass": "",
-                    "isShowHeadline": false,
+                    "isShowHeadline": true,
                     "sortOrder": 1,
                     "type": "normal",
                     "rows": [],
@@ -35,6 +35,7 @@
                     ]
                 }
             },
+            "rows": {},
             "controls": {
                 "control-462f41a9-f800-4dff-80ac-fa8d5a759f96": {
                     "uniqueId": "control-462f41a9-f800-4dff-80ac-fa8d5a759f96",
