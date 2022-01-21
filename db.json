@@ -1,184 +1,7 @@
 {
     "organID": [{
-            "form_title": "Expense Report",
-            "data": {
-                "formConfig": {
-                    "headline": "",
-                    "subHeadline": "",
-                    "isShowHeadline": false,
-                    "renderFormTag": false,
-                    "formActionURL": "",
-                    "formMethod": "POST",
-                    "enableServerSideValidation": false,
-                    "serverSideValidationEndpoint": ""
-                },
-                "sections": {
-                    "section-ecf524fd-2017-4966-9e80-19858eb79cb5": {
-                        "uniqueId": "section-ecf524fd-2017-4966-9e80-19858eb79cb5",
-                        "headline": "Form Headline",
-                        "headlineAdditionalClass": "",
-                        "subHeadline": "",
-                        "subHeadlineAdditionalClass": "",
-                        "isShowHeadline": false,
-                        "sortOrder": 1,
-                        "type": "normal",
-                        "rows": [],
-                        "controls": [
-                            "control-462f41a9-f800-4dff-80ac-fa8d5a759f96",
-                            "control-0c2c194d-6f48-40c3-bec6-d69ea7b6589e",
-                            "control-b53d73c5-34fe-469f-91ae-8b4df3e99a09",
-                            "control-357b3272-ffe8-4766-832b-ceff493006ba",
-                            "control-8eb53859-04da-4722-9bdd-8d0eac8a0627",
-                            "control-0491a556-97fb-40cb-b537-4646cf4fb9f5",
-                            "control-40ab76ff-7286-4846-8873-b63dc0086fb8",
-                            "control-92cf89f9-7256-44fd-a615-2c0119a9cd15"
-                        ]
-                    }
-                },
-                "rows": {},
-                "controls": {
-                    "control-462f41a9-f800-4dff-80ac-fa8d5a759f96": {
-                        "uniqueId": "control-462f41a9-f800-4dff-80ac-fa8d5a759f96",
-                        "type": "input",
-                        "name": "bankName",
-                        "label": "Bank Name",
-                        "subLabel": "",
-                        "isShowLabel": true,
-                        "placeholderText": "Bank Name",
-                        "containerClass": "col-md-12 md-layout-item md-size-100",
-                        "additionalContainerClass": "",
-                        "additionalFieldClass": "field",
-                        "additionalLabelClass": "",
-                        "defaultValue": "",
-                        "validations": [],
-                        "typeAttribute": "text"
-                    },
-                    "control-0c2c194d-6f48-40c3-bec6-d69ea7b6589e": {
-                        "uniqueId": "control-0c2c194d-6f48-40c3-bec6-d69ea7b6589e",
-                        "type": "input",
-                        "name": "bankAccountNumber",
-                        "label": "Bank Account Number",
-                        "subLabel": "",
-                        "isShowLabel": true,
-                        "placeholderText": "Bank Account Number",
-                        "containerClass": "col-md-12 md-layout-item md-size-100",
-                        "additionalContainerClass": "",
-                        "additionalFieldClass": "",
-                        "additionalLabelClass": "",
-                        "defaultValue": "",
-                        "validations": [],
-                        "typeAttribute": "text"
-                    },
-                    "control-b53d73c5-34fe-469f-91ae-8b4df3e99a09": {
-                        "uniqueId": "control-b53d73c5-34fe-469f-91ae-8b4df3e99a09",
-                        "type": "input",
-                        "name": "bankRoutingNumber",
-                        "label": "Bank Routing Number",
-                        "subLabel": "",
-                        "isShowLabel": true,
-                        "placeholderText": "Bank Routing Number",
-                        "containerClass": "col-md-12 md-layout-item md-size-100",
-                        "additionalContainerClass": "",
-                        "additionalFieldClass": "",
-                        "additionalLabelClass": "",
-                        "defaultValue": "",
-                        "validations": [],
-                        "typeAttribute": "text"
-                    },
-                    "control-357b3272-ffe8-4766-832b-ceff493006ba": {
-                        "uniqueId": "control-357b3272-ffe8-4766-832b-ceff493006ba",
-                        "type": "input",
-                        "name": "address",
-                        "label": "Address",
-                        "subLabel": "",
-                        "isShowLabel": true,
-                        "placeholderText": "Street Address",
-                        "containerClass": "col-md-12 md-layout-item md-size-100",
-                        "additionalContainerClass": "",
-                        "additionalFieldClass": "",
-                        "additionalLabelClass": "",
-                        "defaultValue": "",
-                        "validations": [],
-                        "typeAttribute": "text"
-                    },
-                    "control-8eb53859-04da-4722-9bdd-8d0eac8a0627": {
-                        "uniqueId": "control-8eb53859-04da-4722-9bdd-8d0eac8a0627",
-                        "type": "input",
-                        "name": "city",
-                        "label": "City",
-                        "subLabel": "",
-                        "isShowLabel": true,
-                        "placeholderText": "City",
-                        "containerClass": "col-md-12 md-layout-item md-size-100",
-                        "additionalContainerClass": "",
-                        "additionalFieldClass": "",
-                        "additionalLabelClass": "",
-                        "defaultValue": "",
-                        "validations": [],
-                        "typeAttribute": "text"
-                    },
-                    "control-0491a556-97fb-40cb-b537-4646cf4fb9f5": {
-                        "uniqueId": "control-0491a556-97fb-40cb-b537-4646cf4fb9f5",
-                        "type": "input",
-                        "name": "state",
-                        "label": "State",
-                        "subLabel": "",
-                        "isShowLabel": true,
-                        "placeholderText": "State",
-                        "containerClass": "col-md-12 md-layout-item md-size-100",
-                        "additionalContainerClass": "",
-                        "additionalFieldClass": "",
-                        "additionalLabelClass": "",
-                        "defaultValue": "",
-                        "validations": [],
-                        "typeAttribute": "text"
-                    },
-                    "control-40ab76ff-7286-4846-8873-b63dc0086fb8": {
-                        "uniqueId": "control-40ab76ff-7286-4846-8873-b63dc0086fb8",
-                        "type": "input",
-                        "name": "country",
-                        "label": "Country",
-                        "subLabel": "",
-                        "isShowLabel": true,
-                        "placeholderText": "Country",
-                        "containerClass": "col-md-12 md-layout-item md-size-100",
-                        "additionalContainerClass": "",
-                        "additionalFieldClass": "",
-                        "additionalLabelClass": "",
-                        "defaultValue": "",
-                        "validations": [],
-                        "typeAttribute": "text"
-                    },
-                    "control-92cf89f9-7256-44fd-a615-2c0119a9cd15": {
-                        "uniqueId": "control-92cf89f9-7256-44fd-a615-2c0119a9cd15",
-                        "type": "button",
-                        "name": "",
-                        "label": "Submit",
-                        "subLabel": "",
-                        "isShowLabel": false,
-                        "placeholderText": "",
-                        "containerClass": "col-md-12 md-layout-item md-size-100",
-                        "additionalContainerClass": "",
-                        "additionalFieldClass": "",
-                        "additionalLabelClass": "",
-                        "defaultValue": "",
-                        "validations": [],
-                        "buttonClass": "btn btn-success md-button md-raised md-success md-theme-default",
-                        "buttonType": "button",
-                        "emitEventCode": "saveData",
-                        "emitEventData": "formInputData",
-                        "isRunValidation": false
-                    }
-                }
-            },
-            "is_private": true,
-            "id": 1,
-            "form_name": "Unknown Type: uid"
-        },
-        {
             "form_title": "Bulk Wholesale Purchase Order",
             "data": {
-
                 "formConfig": {
                     "headline": "",
                     "subHeadline": "",
@@ -199,9 +22,7 @@
                         "isShowHeadline": true,
                         "sortOrder": 1,
                         "type": "normal",
-                        "rows": [
-
-                        ],
+                        "rows": [],
                         "controls": [
                             "control-534cb29a-bf28-4ae3-a5cd-4403eda62240",
                             "control-4d77fb7c-2d89-480b-8768-d4990ef3b185",
@@ -216,9 +37,7 @@
                         ]
                     }
                 },
-                "rows": {
-
-                },
+                "rows": {},
                 "controls": {
                     "control-534cb29a-bf28-4ae3-a5cd-4403eda62240": {
                         "uniqueId": "control-534cb29a-bf28-4ae3-a5cd-4403eda62240",
@@ -233,9 +52,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "format": "DD/MM/YYYY",
                         "firstDay": 0,
                         "numberOfMonths": 1,
@@ -260,9 +77,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-8753a146-78c2-47ab-9d6a-bd38b96dd886": {
@@ -278,9 +93,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-0f4247c6-cfc7-4935-9b99-d113bafd6e1a": {
@@ -316,9 +129,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-10226b9a-1b35-49b3-afb2-778e6c95d9e6": {
@@ -334,9 +145,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "isReal": false,
                         "decimalPlace": 1
                     },
@@ -353,9 +162,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-88b521ec-fafc-4e75-a586-824dfa4abd65": {
@@ -371,9 +178,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-14599fc7-3650-427b-b6d7-e6510b8fd5b5": {
@@ -389,9 +194,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "rows": 5
                     },
                     "control-901f59d0-12d4-49a9-b22a-bcf00d1e99fd": {
@@ -407,9 +210,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "buttonClass": "btn btn-success md-button md-raised md-success md-theme-default",
                         "buttonType": "button",
                         "emitEventCode": "",
@@ -417,10 +218,9 @@
                         "isRunValidation": false
                     }
                 }
-
             },
             "is_private": true,
-            "id": 2,
+            "id": 1,
             "form_name": "Unknown Type: uid"
         },
         {
@@ -446,9 +246,7 @@
                         "isShowHeadline": true,
                         "sortOrder": 1,
                         "type": "normal",
-                        "rows": [
-
-                        ],
+                        "rows": [],
                         "controls": [
                             "control-534cb29a-bf28-4ae3-a5cd-4403eda62240",
                             "control-4d77fb7c-2d89-480b-8768-d4990ef3b185",
@@ -465,9 +263,7 @@
                         ]
                     }
                 },
-                "rows": {
-
-                },
+                "rows": {},
                 "controls": {
                     "control-534cb29a-bf28-4ae3-a5cd-4403eda62240": {
                         "uniqueId": "control-534cb29a-bf28-4ae3-a5cd-4403eda62240",
@@ -482,9 +278,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "format": "DD/MM/YYYY",
                         "firstDay": 0,
                         "numberOfMonths": 1,
@@ -509,9 +303,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-8753a146-78c2-47ab-9d6a-bd38b96dd886": {
@@ -527,9 +319,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-0f4247c6-cfc7-4935-9b99-d113bafd6e1a": {
@@ -565,9 +355,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-b27c7a4f-b105-481e-bc09-c2ee1a8bce74": {
@@ -583,9 +371,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-901f59d0-12d4-49a9-b22a-bcf00d1e99fd": {
@@ -601,9 +387,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "buttonClass": "btn btn-success md-button md-raised md-success md-theme-default",
                         "buttonType": "button",
                         "emitEventCode": "",
@@ -623,9 +407,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-e28db2dc-d77d-46c9-ab12-54b1aff23a80": {
@@ -661,9 +443,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-890437b9-71cf-465f-b1bf-be34a269ad4f": {
@@ -679,9 +459,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-ba36b738-49a4-4154-9bc3-64fec97c0b45": {
@@ -697,15 +475,13 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     }
                 }
             },
             "is_private": true,
-            "id": 3,
+            "id": 2,
             "form_name": "Unknown Type: uid"
         },
         {
@@ -731,9 +507,7 @@
                         "isShowHeadline": true,
                         "sortOrder": 1,
                         "type": "normal",
-                        "rows": [
-
-                        ],
+                        "rows": [],
                         "controls": [
                             "control-4d77fb7c-2d89-480b-8768-d4990ef3b185",
                             "control-0f4247c6-cfc7-4935-9b99-d113bafd6e1a",
@@ -744,9 +518,7 @@
                         ]
                     }
                 },
-                "rows": {
-
-                },
+                "rows": {},
                 "controls": {
                     "control-4d77fb7c-2d89-480b-8768-d4990ef3b185": {
                         "uniqueId": "control-4d77fb7c-2d89-480b-8768-d4990ef3b185",
@@ -761,9 +533,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-8753a146-78c2-47ab-9d6a-bd38b96dd886": {
@@ -779,9 +549,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "typeAttribute": "text"
                     },
                     "control-0f4247c6-cfc7-4935-9b99-d113bafd6e1a": {
@@ -817,9 +585,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "buttonClass": "btn btn-success md-button md-raised md-success md-theme-default",
                         "buttonType": "button",
                         "emitEventCode": "",
@@ -839,9 +605,7 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
                         "isReal": true,
                         "decimalPlace": 2
                     },
@@ -858,9 +622,154 @@
                         "additionalFieldClass": "",
                         "additionalLabelClass": "",
                         "defaultValue": "",
-                        "validations": [
-
-                        ],
+                        "validations": [],
+                        "typeAttribute": "text"
+                    }
+                }
+            },
+            "is_private": true,
+            "id": 3,
+            "form_name": "Unknown Type: uid"
+        },
+        {
+            "form_title": "Payment Request",
+            "data": {
+                "formConfig": {
+                    "headline": "",
+                    "subHeadline": "",
+                    "isShowHeadline": false,
+                    "renderFormTag": false,
+                    "formActionURL": "",
+                    "formMethod": "POST",
+                    "enableServerSideValidation": false,
+                    "serverSideValidationEndpoint": ""
+                },
+                "sections": {
+                    "section-e22cb6b8-54a5-42f5-bff4-c29149859fa6": {
+                        "uniqueId": "section-e22cb6b8-54a5-42f5-bff4-c29149859fa6",
+                        "headline": "Payment Request",
+                        "headlineAdditionalClass": "",
+                        "subHeadline": "",
+                        "subHeadlineAdditionalClass": "",
+                        "isShowHeadline": true,
+                        "sortOrder": 1,
+                        "type": "normal",
+                        "rows": [],
+                        "controls": [
+                            "control-19e8ebe2-6d05-468b-a467-65ac8c932988",
+                            "control-7dceba34-13eb-40b6-a209-aa58ee77986e",
+                            "control-4d77fb7c-2d89-480b-8768-d4990ef3b185",
+                            "control-0f4247c6-cfc7-4935-9b99-d113bafd6e1a",
+                            "control-783b834a-f698-4368-94a2-1d54e6a742a6",
+                            "control-901f59d0-12d4-49a9-b22a-bcf00d1e99fd"
+                        ]
+                    }
+                },
+                "rows": {},
+                "controls": {
+                    "control-4d77fb7c-2d89-480b-8768-d4990ef3b185": {
+                        "uniqueId": "control-4d77fb7c-2d89-480b-8768-d4990ef3b185",
+                        "type": "input",
+                        "name": "name",
+                        "label": "Your Name",
+                        "subLabel": "",
+                        "isShowLabel": true,
+                        "placeholderText": "Your Name",
+                        "containerClass": "col-md-12 md-layout-item md-size-100",
+                        "additionalContainerClass": "",
+                        "additionalFieldClass": "",
+                        "additionalLabelClass": "",
+                        "defaultValue": "",
+                        "validations": [],
+                        "typeAttribute": "text"
+                    },
+                    "control-0f4247c6-cfc7-4935-9b99-d113bafd6e1a": {
+                        "uniqueId": "control-0f4247c6-cfc7-4935-9b99-d113bafd6e1a",
+                        "type": "input",
+                        "name": "email",
+                        "label": "Your Email",
+                        "subLabel": "",
+                        "isShowLabel": true,
+                        "placeholderText": "Enter  Your Email",
+                        "containerClass": "col-md-12 md-layout-item md-size-100",
+                        "additionalContainerClass": "",
+                        "additionalFieldClass": "",
+                        "additionalLabelClass": "",
+                        "defaultValue": "",
+                        "validations": [{
+                            "ruleType": "isEmail",
+                            "errorMessage": "Wrong email address format",
+                            "additionalValue": ""
+                        }],
+                        "typeAttribute": "text"
+                    },
+                    "control-901f59d0-12d4-49a9-b22a-bcf00d1e99fd": {
+                        "uniqueId": "control-901f59d0-12d4-49a9-b22a-bcf00d1e99fd",
+                        "type": "button",
+                        "name": "",
+                        "label": "Submit",
+                        "subLabel": "",
+                        "isShowLabel": false,
+                        "placeholderText": "",
+                        "containerClass": "col-md-12 md-layout-item md-size-100",
+                        "additionalContainerClass": "",
+                        "additionalFieldClass": "",
+                        "additionalLabelClass": "",
+                        "defaultValue": "",
+                        "validations": [],
+                        "buttonClass": "btn btn-success md-button md-raised md-success md-theme-default",
+                        "buttonType": "button",
+                        "emitEventCode": "",
+                        "emitEventData": "",
+                        "isRunValidation": false
+                    },
+                    "control-7dceba34-13eb-40b6-a209-aa58ee77986e": {
+                        "uniqueId": "control-7dceba34-13eb-40b6-a209-aa58ee77986e",
+                        "type": "number",
+                        "name": "amountDue",
+                        "label": "What's the amount due?",
+                        "subLabel": "",
+                        "isShowLabel": true,
+                        "placeholderText": "0.00",
+                        "containerClass": "col-md-12 md-layout-item md-size-100",
+                        "additionalContainerClass": "",
+                        "additionalFieldClass": "",
+                        "additionalLabelClass": "",
+                        "defaultValue": "",
+                        "validations": [],
+                        "isReal": true,
+                        "decimalPlace": 2
+                    },
+                    "control-783b834a-f698-4368-94a2-1d54e6a742a6": {
+                        "uniqueId": "control-783b834a-f698-4368-94a2-1d54e6a742a6",
+                        "type": "input",
+                        "name": "invoiceNumber",
+                        "label": "Invoice Number",
+                        "subLabel": "",
+                        "isShowLabel": true,
+                        "placeholderText": "",
+                        "containerClass": "col-md-12 md-layout-item md-size-100",
+                        "additionalContainerClass": "",
+                        "additionalFieldClass": "",
+                        "additionalLabelClass": "",
+                        "defaultValue": "",
+                        "validations": [],
+                        "typeAttribute": "text"
+                    },
+                    "control-19e8ebe2-6d05-468b-a467-65ac8c932988": {
+                        "uniqueId": "control-19e8ebe2-6d05-468b-a467-65ac8c932988",
+                        "type": "input",
+                        "name": "paymentType",
+                        "label": "*Type of Payment",
+                        "subLabel": "",
+                        "isShowLabel": true,
+                        "placeholderText": "",
+                        "containerClass": "col-md-12 md-layout-item md-size-100",
+                        "additionalContainerClass": "",
+                        "additionalFieldClass": "",
+                        "additionalLabelClass": "",
+                        "defaultValue": "",
+                        "validations": [],
                         "typeAttribute": "text"
                     }
                 }
