@@ -574,7 +574,7 @@
                     },
                     "control-901f59d0-12d4-49a9-b22a-bcf00d1e99fd": {
                         "uniqueId": "control-901f59d0-12d4-49a9-b22a-bcf00d1e99fd",
-                        "type": "button",
+                        "type": "submit",
                         "name": "",
                         "label": "Submit",
                         "subLabel": "",
@@ -779,7 +779,14 @@
             "form_name": "Unknown Type: uid"
         }
     ],
-    "formData": [
-        {}
-    ]
+    "formData": [{
+        "id": 1,
+        "data": {
+            "name": "Sunday Momoh",
+            "email": "sunny@test.com",
+            "amountDue": 10000,
+            "invoiceNumber": "INV0123644",
+            "paymentType": "xyzabc"
+        }
+    }]
 }
