@@ -212,7 +212,7 @@
                         "defaultValue": "",
                         "validations": [],
                         "buttonClass": "btn btn-success md-button md-raised md-success md-theme-default",
-                        "buttonType": "button",
+                        "buttonType": "submit",
                         "emitEventCode": "",
                         "emitEventData": "",
                         "isRunValidation": false
@@ -389,7 +389,7 @@
                         "defaultValue": "",
                         "validations": [],
                         "buttonClass": "btn btn-success md-button md-raised md-success md-theme-default",
-                        "buttonType": "button",
+                        "buttonType": "submit",
                         "emitEventCode": "",
                         "emitEventData": "",
                         "isRunValidation": false
@@ -587,7 +587,7 @@
                         "defaultValue": "",
                         "validations": [],
                         "buttonClass": "btn btn-success md-button md-raised md-success md-theme-default",
-                        "buttonType": "button",
+                        "buttonType": "submit",
                         "emitEventCode": "",
                         "emitEventData": "",
                         "isRunValidation": false
@@ -718,7 +718,7 @@
                         "defaultValue": "",
                         "validations": [],
                         "buttonClass": "btn btn-success md-button md-raised md-success md-theme-default",
-                        "buttonType": "button",
+                        "buttonType": "submit",
                         "emitEventCode": "",
                         "emitEventData": "",
                         "isRunValidation": false
